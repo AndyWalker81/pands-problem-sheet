@@ -1,4 +1,5 @@
 # bmi.py
+# Week 2 Task
 # A program to calculate a person's body mass index (BMI)
 # Author: Andy Walker
 
