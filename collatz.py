@@ -19,17 +19,11 @@ print (userNumber,  end = ' ')
 
 # The program will run until the userNumber equals 1
 while userNumber != 1:
-
-    # If the number is even it divides it by two
-
     if ((userNumber % 2) == 0):
         userNumber = int(userNumber / 2 )
-
-    # If the number is odd it multiplies by three and adds 1
     else:
         userNumber = int(userNumber * 3 + 1)
 
-    # The code will run until the number equals 1.
     # It will then print out the rest of the numbers on the same line as the original number
 
     print (userNumber, end = ' ')
