@@ -16,7 +16,7 @@ This program uses flow control to make calculations on a user-inputted number un
 For future reference: maybe change this program to use lists 
 
 23/2/21
-Uploaded program for Week 4 task - weekday.py
+Uploaded program for Week 5 task - weekday.py
 A program that outputs whether or not today is a weekday.
 reference: https://pythontic.com/datetime/date/weekday accessed 23/2/21
 reference: https://stackoverflow.com/questions/12382190/automatically-update-stored-value-of-datetime-datetime-now accessed 23/2/21
