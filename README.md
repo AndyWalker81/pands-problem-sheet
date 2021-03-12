@@ -1,10 +1,10 @@
 # pands-problem-sheet
 
-## Andrew Walker ### (G00398788@gmit.ie)
+## Andrew Walker (G00398788@gmit.ie)
 
-README file for the 20-21: 52167 -- Programming and Scripting Module 
+### README file for the 20-21: 52167 -- Programming and Scripting Module 
 
-Lecturer -- Andrew Beatty (andrew.beatty@gmit.ie)
+#### Lecturer -- Andrew Beatty (andrew.beatty@gmit.ie)
 
 This file is the submission problem sheet for the module and contains the code, references, and comments for the 8 weekly tasks set over the duration of the course. 
 
