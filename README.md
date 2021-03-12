@@ -36,10 +36,12 @@ print ("The person's BMI is: \t{}".format(BMI))
 The user is first asked to enter height in centimetres and weight in kilgrams as integers. The program then outputs the values entered along with the units for height and weight. 
 
 The calculation for BMI is then performed, based upon the values for height and weight previously entered. 
-*BMI = kg/m^2 where kg is a person's weight in kilograms and m^2 is their height in metres squared*
-As the height was entered in centimetres, height in metres must be divided by 100
-The operator **2 is used to calculate to the power of 2
-The round expression rounds the answer to 2 decimal places
+
+*BMI = kg/m^2 where kg is a person's weight in kilograms and m^2 is their height in metres squared*.
+
+As the height was entered in centimetres, height in metres must be divided by 100.
+The operator **2 is used to calculate to the power of 2.
+The round expression rounds the answer to 2 decimal places.
 
 ### References:
 1. W3Schools (n.d), *Python round() function* [Online]. Available at https://www.w3schools.com/python/ref_func_round.asp (Accessed 12th March 2021)
