@@ -42,9 +42,9 @@ The operator **2 is used to calculate to the power of 2
 The round expression rounds the answer to 2 decimal places
 
 ### References:
-W3Schools, Python round() function, W3Schools, viewed 12th March 2021, <https://www.w3schools.com/python/ref_func_round.asp>
-NHS, BMI healthy weight calculator, NHS, viewed 12th March 2021, <https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/>
-Canadian Diabetes Association, How to calculate Body Mass Index, Canadian Diabetes Association, viewed 12th March 2021, <https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator>
+1. W3Schools (n.d), *Python round() function* [Online]. Available at https://www.w3schools.com/python/ref_func_round.asp (Accessed 12th March 2021)
+2. NHS (2018), *BMI healthy weight calculator* [Online]. Available at https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/ (Accessed 12th March 2021)
+3. Canadian Diabetes Association (2021), *How to calculate Body Mass Index* [Online]. Available at https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator (Accessed 12th March 2021)
 
 
 
