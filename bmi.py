@@ -1,7 +1,7 @@
 # bmi.py
 # Week 2 Task
 # A program to calculate a person's body mass index (BMI)
-# Author: Andy Walker
+# Author: Andrew Walker
 
 # these lines are the inputs 
 height = int(input("Enter height in centimetres: "))
@@ -14,4 +14,5 @@ weight = int(input("Enter weight in kilograms: "))
 # the round expression rounds the answer to 2 decimal places
 print ("The height is {}cm".format(height))
 print ("The weight is {}kg".format(weight))
-print ("The person's BMI is: \t{}".format(round(weight / (height/100)**2,2)))   
+BMI = (round(weight / (height/100)**2,2))
+print ("The person's BMI is: \t{}".format(BMI))   

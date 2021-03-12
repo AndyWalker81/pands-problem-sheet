@@ -1,5 +1,60 @@
 # pands-problem-sheet
-pands-problem-sheet
+
+## Andrew Walker 
+### (G00398788@gmit.ie)
+
+README file for the 20-21: 52167 -- Programming and Scripting Module 
+Lecturer -- Andrew Beatty (andrew.beatty@gmit.ie)
+
+This file is the submission problem sheet for the module and contains the code, references, and comments for the 8 weekly tasks set over the duration of the course. 
+
+## Week 1
+
+N/A - no submission of code required.
+
+## Week 2: Statements - Toggle
+
+*Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py*
+*The inputs are the person's height in centimetres and weight in kilograms.*
+*The output  is their weight divided by their height in metres squared.*
+
+### Code:
+
+```python
+height = int(input("Enter height in centimetres: "))
+weight = int(input("Enter weight in kilograms: "))
+
+print ("The height is {}cm".format(height))
+print ("The weight is {}kg".format(weight))
+
+BMI = (round(weight / (height/100)**2,2))
+
+print ("The person's BMI is: \t{}".format(BMI))  
+```
+
+### Explanation: 
+The user is first asked to enter height in centimetres and weight in kilgrams as integers. The program then outputs the values entered along with the units for height and weight. 
+
+The calculation for BMI is then performed, based upon the values for height and weight previously entered. 
+*BMI = kg/m^2 where kg is a person's weight in kilograms and m^2 is their height in metres squared*
+As the height was entered in centimetres, height in metres must be divided by 100
+The operator **2 is used to calculate to the power of 2
+The round expression rounds the answer to 2 decimal places
+
+### References:
+W3Schools, Python round() function, W3Schools, viewed 12th March 2021, <https://www.w3schools.com/python/ref_func_round.asp>
+NHS, BMI healthy weight calculator, NHS, viewed 12th March 2021, <https://www.nhs.uk/live-well/healthy-weight/bmi-calculator/>
+Canadian Diabetes Association, How to calculate Body Mass Index, Canadian Diabetes Association, viewed 12th March 2021, <https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator>
+
+
+
+
+
+
+
+
+
+
 
 31/1/21
 Created pands-problem-sheet repository
