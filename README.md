@@ -68,6 +68,7 @@ The slice statement [::-2] in the code means start at the end of the string and 
 The returns every second character in reverse order as per the example given in the task:
 
 *Please enter a sentence: The quick brown fox jumps over the lazy dog.*
+
 *.o zletrv pu o wr cu h*
 
 ### References:
