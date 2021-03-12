@@ -49,6 +49,30 @@ The round expression rounds the answer to 2 decimal places.
 3. Canadian Diabetes Association (2021), *How to calculate Body Mass Index* [Online]. Available at https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator (Accessed 12th March 2021)
 
 
+## Week 3: Variables - Toggle
+
+*Write a program that takes asks a user to input a string and outputs every second letter in reverse order.*
+
+### Code:
+
+```python
+txt = input("Please enter a sentence: ")
+print (txt[::-2])
+```
+
+### Explanation: 
+The user is asked to enter a sentence which is saved as a string. According to W3Schools (Reference 1), there is no built in function to reverse a string in Python; the easiest way is to use a slice that steps backward. 
+
+The slice statement [::-2] in the code means start at the end of the string and end at position 0, move with the step -2, negative two, which means two steps backwards. 
+
+The returns every second character in reverse order as per the example given in the task:
+
+*Please enter a sentence: The quick brown fox jumps over the lazy dog.*
+*.o zletrv pu o wr cu h*
+
+### References:
+1. W3Schools (n.d), *How to Reverse a String in Python* [Online]. Available at https://www.w3schools.com/python/python_howto_reverse_string.asp (Accessed 12th March 2021)
+2. 
 
 
 
