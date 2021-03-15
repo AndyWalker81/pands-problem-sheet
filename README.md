@@ -12,7 +12,7 @@ This file is the submission problem sheet for the module and contains the code, 
 
 N/A - no submission of code required.
 
-## Week 2: Statements - Toggle
+## Week 2: Statements 
 
 *Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py*
 *The inputs are the person's height in centimetres and weight in kilograms.*
@@ -49,7 +49,7 @@ The round expression rounds the answer to 2 decimal places.
 3. Canadian Diabetes Association (2021), *How to calculate Body Mass Index* [Online]. Available at https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator (Accessed 12th March 2021)
 
 
-## Week 3: Variables - Toggle
+## Week 3: Variables
 
 *Write a program that takes asks a user to input a string and outputs every second letter in reverse order.*
 
@@ -130,3 +130,61 @@ It was not specified in task instructions whether to include capital E's
 Decision made to count and return both e's and E's separately and also return the total
 The program takes the filename from an argument on the command line
 
+## Week 8: Plot 
+
+*Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.*
+*Some marks will be given for making the plot look nice.*
+
+### Code:
+
+```python
+# import modules 
+import numpy as np
+import matplotlib.pyplot as plt
+
+# set absolute variables
+x = np.array(range(0,4))
+y = np.array(range(0,4))
+
+# define first function and plot
+def f(x):
+    return x
+plt.plot(y, f(x), "r", label = "f(x)")
+
+# define second function and plot
+def g(x):
+    return x ** 2
+plt.plot(y, g(x), "b", label = "g(x)")
+
+# define third function and plot
+def h(x):
+    return x ** 3
+plt.plot(y, h(x),  "g", label = "h(x)")
+
+# add title, axis labels, legend, and show the plot
+plt.title("Weekly Task 8")
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.legend()
+plt.show()
+```
+
+### Explanation: 
+1. The program first imports the modules numpy and pyplot from matplotlib. 
+    - Numpy is a Python library used for working with arrays. 
+    - Matplotlib is a library for creating visualizations in Python. 
+    - matplotlib.pyplot is a collection of functions that make matplotlib work like MATLAB. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc.
+2. The program then defines each of the three functions required for the task in turn: f(x), g(x), and h(x). Each function returns the value stated in the task instruction.
+3. After each function, the program uses pyploy to plots the result in a line plot. The result is not shown at each of these stages.
+    - Each line is given a colour (red, blue, and green respectively)
+    - Each line is given a label 
+4. The program then adds a title, axis labels, displays the legend.
+5. Finally, the program shows the finished plot.
+
+### References:
+1. https://www.w3schools.com/python/numpy_intro.asp 
+2. https://matplotlib.org/ 
+3. https://pythonprogramming.net/legends-titles-labels-matplotlib-tutorial/
+4. https://stackoverflow.com/questions/13544078/python-how-to-create-a-function-e-g-fx-ax2
+5. https://pythonspot.com/functions/   
+6. https://www.pitt.edu/~naraehan/python2/user_defined_functions.html

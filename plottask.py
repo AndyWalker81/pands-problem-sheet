@@ -6,7 +6,11 @@
 # https://stackoverflow.com/questions/13544078/python-how-to-create-a-function-e-g-fx-ax2
 # https://pythonspot.com/functions/   
 # https://www.pitt.edu/~naraehan/python2/user_defined_functions.html
+# https://pythonprogramming.net/legends-titles-labels-matplotlib-tutorial/
+# https://www.w3schools.com/python/numpy_intro.asp
+# https://matplotlib.org/
 
+# import modules 
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -14,22 +18,24 @@ import matplotlib.pyplot as plt
 x = np.array(range(0,4))
 y = np.array(range(0,4))
 
+# define first function and plot
 def f(x):
     return x
+plt.plot(y, f(x), "r", label = "f(x)")
 
-plt.plot(f(x), y, "r")
-#print (f(x))
-
+# define second function and plot
 def g(x):
     return x ** 2
+plt.plot(y, g(x), "b", label = "g(x)")
 
-plt.plot(g(x), y, "b")
-#print (g(x))
-
+# define third function and plot
 def h(x):
     return x ** 3
+plt.plot(y, h(x),  "g", label = "h(x)")
 
-plt.plot(h(x), y, "g")
-#print (h(x))
-
+# add title, labels, legend, and show the plot
+plt.title("Weekly Task 8")
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.legend()
 plt.show()
