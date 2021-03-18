@@ -19,6 +19,7 @@ N/A - no submission of code required.
 *The output  is their weight divided by their height in metres squared.*
 
 ### Code:
+bmi.py
 
 ```python
 height = int(input("Enter height in centimetres: "))
@@ -54,6 +55,7 @@ The round expression rounds the answer to 2 decimal places.
 *Write a program that takes asks a user to input a string and outputs every second letter in reverse order.*
 
 ### Code:
+secondString.py
 
 ```python
 txt = input("Please enter a sentence: ")
@@ -73,7 +75,54 @@ The returns every second character in reverse order as per the example given in 
 
 ### References:
 1. W3Schools (n.d), *How to Reverse a String in Python* [Online]. Available at https://www.w3schools.com/python/python_howto_reverse_string.asp (Accessed 12th March 2021)
-2. 
+ 
+
+## Week 4: Controlling the flow
+
+*Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.*
+
+*At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.*
+
+*Have the program end if the current value is one.*
+
+### Code:
+collatz.py
+
+```python
+userNumber = int(input("Please enter a positive integer: "))
+print (userNumber,  end = ' ')
+
+while userNumber != 1:
+    if ((userNumber % 2) == 0):
+        userNumber = int(userNumber / 2 )
+    else:
+        userNumber = int(userNumber * 3 + 1)
+    
+    print (userNumber, end = ' ')
+```
+
+### Explanation: 
+
+The program first asks the user to input a positive interger which is stored as ```userNumber'``` and then printed. The ```end = ' '```python code means that the following items to be printed will be on the same line (by default python's print() function ends with a new line).
+
+The program then performs a while loop while ```userNumber'``` does not equal 1 :
+- The modulus operator (%) is used to determine if ```userNumber'``` is even or odd.
+- If the result of ```userNumber % 2``` is 0 then ```userNumber'``` is even and the program will divide ```userNumber'``` by 2 and replaces the value of ```userNumber'``` with the new value. 
+- If the result of ```userNumber % 2``` is not 0 then ```userNumber'``` is odd and the program will multiply ```userNumber'``` by 3 and add 1. 
+- On each step of the loop, the program replaces the orginal ```userNumber'`` with the newly calculated value. This figure is printed out. 
+- The loop ends when the value ```userNumber'`` is equal to 1.
+- None of the values for ```userNumber'`` print until the loop ends, and each is printed on the same line using ```end = ' '``.
+
+### References:
+1. GeeksforGeeks (n.d.), *Python end parameter in print()* [Online]. Available at https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ (Accessed 18th March 2021)
+2. W3Schools (n.d.) *Python While Loops* [Online]. Available at https://www.w3schools.com/python/python_while_loops.asp (Accessed 18th March 2021)
+3. W3Schools (n.d.) *Python If ... Else* [Online]. Available at https://www.w3schools.com/python/python_conditions.asp (Accessed 18th March 2021)
+4. W3Schools (n.d.) *Python Operators* [Online]. Available at https://www.w3schools.com/python/python_operators.asp (Accessed 18th March 2021)
+
+
+
+
+
 
 
 
