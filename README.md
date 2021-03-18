@@ -105,13 +105,13 @@ while userNumber != 1:
 
 The program first asks the user to input a positive interger which is stored as ```userNumber'``` and then printed. The ```end = ' '```python code means that the following items to be printed will be on the same line (by default python's print() function ends with a new line).
 
-The program then performs a while loop while ```userNumber'``` does not equal 1 :
-- The modulus operator (%) is used to determine if ```userNumber'``` is even or odd.
-- If the result of ```userNumber % 2``` is 0 then ```userNumber'``` is even and the program will divide ```userNumber'``` by 2 and replaces the value of ```userNumber'``` with the new value. 
-- If the result of ```userNumber % 2``` is not 0 then ```userNumber'``` is odd and the program will multiply ```userNumber'``` by 3 and add 1. 
-- On each step of the loop, the program replaces the orginal ```userNumber'`` with the newly calculated value. This figure is printed out. 
-- The loop ends when the value ```userNumber'`` is equal to 1.
-- None of the values for ```userNumber'`` print until the loop ends, and each is printed on the same line using ```end = ' '``.
+The program then performs a while loop while ```userNumber``` does not equal 1 :
+- The modulus operator (%) is used to determine if ```userNumber``` is even or odd.
+- If the result of ```userNumber % 2``` is 0 then ```userNumber``` is even and the program will divide ```userNumber``` by 2 and replaces the value of ```userNumber``` with the new value. 
+- If the result of ```userNumber % 2``` is not 0 then ```userNumber``` is odd and the program will multiply ```userNumber``` by 3 and add 1. 
+- On each step of the loop, the program replaces the orginal ```userNumber``` with the newly calculated value. This figure is printed out. 
+- The loop ends when the value ```userNumber``` is equal to 1.
+- None of the values for ```userNumber``` print until the loop ends, and each is printed on the same line using ```end = ' '```.
 
 ### References:
 1. GeeksforGeeks (n.d.), *Python end parameter in print()* [Online]. Available at https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/ (Accessed 18th March 2021)
