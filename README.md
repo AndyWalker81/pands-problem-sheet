@@ -103,7 +103,7 @@ while userNumber != 1:
 
 ### Explanation: 
 
-The program first asks the user to input a positive interger which is stored as ```userNumber'``` and then printed. The ```end = ' '```python code means that the following items to be printed will be on the same line (by default python's print() function ends with a new line).
+The program first asks the user to input a positive interger which is stored as ```userNumber'``` and then printed. The ```end = ' '```python code means that the following items to be printed will be on the same line (by default python's print() function ends with a new line). (Please note - this value will not be printed until the rest of the program has run).
 
 The program then performs a while loop while ```userNumber``` does not equal 1 :
 - The modulus operator (%) is used to determine if ```userNumber``` is even or odd.
