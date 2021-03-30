@@ -122,6 +122,46 @@ The program then performs a while loop while ```userNumber``` does not equal 1 :
 
 
 
+## Week 5: Data
+
+*Write a program that outputs whether or not today is a weekday.*
+
+### Code:
+weekday.py
+
+```python
+import datetime
+
+days = ("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
+date = datetime.datetime.now()
+today = date.weekday()
+todayAsString = days[today]
+
+if today <= 4:
+    print ("Today is {} which is a weekday.".format(todayAsString))
+else:
+    print ("Yay! Today is {} which is the weekend!".format(todayAsString))
+```
+
+### Explanation: 
+
+A date in Python is not a data type of its own. Therefore, the program first imports the module ```datetime``` to work with dates as date objects. 
+
+Four variables are defined:
+
+- days: the seven days of the week 
+- date: the current date and time in the format ```YYYY-MM-DD 00:00:00.000000```
+- today: the ```weekday``` function returns an integer corresponding to day of the week (e.g.: 0 for Monday, 6 for Sunday)
+- todayAsString: converts integer to string 
+
+The program then runs an if loop. If the value of the 'today' integer is less than or equal to 4 (i.e. 0 to 4; Monday to Friday) then the program prints a line of code stating that the current day is a weekday. If the value of the integer is not less than or equal to 4 (i.e. 5 or 6; Saturday or Sunday) then the program prints a line of code stating that the current day is the weekend. The program ends after one iteration of the loop.
+
+### References:
+1. Pythontic (2020), *Weekday Function In Python* [Online]. Available at https://pythontic.com/datetime/date/weekday (Accessed 30th March 2021)
+2. Stack Overflow (n.d.) *Automatically update stored value of datetime.datetime.now()* [Online]. Available at https://stackoverflow.com/questions/12382190/automatically-update-stored-value-of-datetime-datetime-now (Accessed 30th March 2021)
+3. W3Schools (n.d.) *Python Datetime* [Online]. Available at https://www.w3schools.com/python/python_datetime.asp (Accessed 30th March 2021)
+
+
 
 
 
