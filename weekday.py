@@ -24,7 +24,7 @@ todayAsString = days[today]
 
 # if the day of the week is one of the first 5 days in tuple print that it is a weekday.
 # if the day of the week is not one of the first 5 days then it prints that is is a weekend.
-if today in range (0,5):
+if today <= 5:
     print ("Today is {} which is a weekday.".format(todayAsString))
 else:
     print ("Yay! Today is {} which is the weekend!".format(todayAsString))
