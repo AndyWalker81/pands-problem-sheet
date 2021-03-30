@@ -169,7 +169,7 @@ The program then runs an if loop. If the value of the 'today' integer is less th
 
 *You should create a function called <tt>sqrt</tt> that does this.*
 
-*I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).*
+*I am asking you to create your own sqrt function and not to use the built in functions ```x ** .5``` or ```math.sqrt(x)```.*
 
 *This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods).*
 
@@ -200,26 +200,16 @@ print ("The estimated square root is: {}".format(round(answer,4)))
 
 ### Explanation: 
 
-A date in Python is not a data type of its own. Therefore, the program first imports the module ```datetime``` to work with dates as date objects. 
 
-Four variables are defined:
-
-- days: the seven days of the week 
-- date: the current date and time in the format ```YYYY-MM-DD 00:00:00.000000```
-- today: the ```weekday``` function returns an integer corresponding to day of the week (e.g.: 0 for Monday, 6 for Sunday)
-- todayAsString: converts integer to string 
-
-The program then runs an if loop. If the value of the 'today' integer is less than or equal to 4 (i.e. 0 to 4; Monday to Friday) then the program prints a line of code stating that the current day is a weekday. If the value of the integer is not less than or equal to 4 (i.e. 5 or 6; Saturday or Sunday) then the program prints a line of code stating that the current day is the weekend. The program ends after one iteration of the loop.
 
 ### References:
-1. Pythontic (2020), *Weekday Function In Python* [Online]. Available at https://pythontic.com/datetime/date/weekday (Accessed 30th March 2021)
-2. Stack Overflow (n.d.) *Automatically update stored value of datetime.datetime.now()* [Online]. Available at https://stackoverflow.com/questions/12382190/automatically-update-stored-value-of-datetime-datetime-now (Accessed 30th March 2021)
-3. W3Schools (n.d.) *Python Datetime* [Online]. Available at https://www.w3schools.com/python/python_datetime.asp (Accessed 30th March 2021)
-
-reference: https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD3x8tynxPa
-reference: https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
-reference: https://www.w3schools.com/python/ref_func_round.asp
-reference: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+1. School for Champions (2012), *Newton's Square Root Approximation* [Online]. Available at https://www.school-for-champions.com/algebra/square_root_approx.htm#.YGMNcz_TVPb (Accessed 30th March 2021)
+2. Sıddık Açıl (2018) *Newton Square Root Method in Python* [Online]. Available at https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d (Accessed 30th March 2021)
+3. W3Schools (n.d.) *Python round() Function* [Online]. Available at https://www.w3schools.com/python/ref_func_round.asp (Accessed 30th March 2021)
+4. Geeks for Geeks (2020) *Find root of a number using Newton’s method* [Online]. Available at https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/ (Accessed 30th March 2021)
+5. thinkcspy (n.d.) *8.6. Newton’s Method* [Online]. Available at https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html (Accessed 30th March 2021)
+6. StudentCSP (n.d.) *8.3. Counting with a While Loop* [Online]. Available at https://runestone.academy/runestone/books/published/StudentCSP/CSPWhileAndForLoops/whileCount.html (Accessed 30th March 2021)
+7. W3Schools (n.d.) *Python While Loops* [Online]. Available at https://www.w3schools.com/python/python_while_loops.asp (Accessed 30th March 2021)
 
 
 
