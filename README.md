@@ -103,7 +103,7 @@ while userNumber != 1:
 
 ### Explanation: 
 
-The program first asks the user to input a positive interger which is stored as ```userNumber'``` and then printed. The ```end = ' '```python code means that the following items to be printed will be on the same line (by default python's print() function ends with a new line). (Please note - this value will not be printed until the rest of the program has run).
+The program first asks the user to input a positive interger which is stored as ```userNumber``` and then printed. The ```end = ' '```python code means that the following items to be printed will be on the same line (by default python's print() function ends with a new line). (Please note - this value will not be printed until the rest of the program has run).
 
 The program then performs a while loop while ```userNumber``` does not equal 1 :
 - The modulus operator (%) is used to determine if ```userNumber``` is even or odd.
@@ -163,7 +163,63 @@ The program then runs an if loop. If the value of the 'today' integer is less th
 
 
 
+## Week 6: Functions
 
+*Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.*
+
+*You should create a function called <tt>sqrt</tt> that does this.*
+
+*I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).*
+
+*This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods).*
+
+*I suggest that you look at the newton method at estimating square roots.*
+
+*This is a more difficult task than some of the others, but will be marked equally, so only do as much work on this as you feel comfortable.*
+
+### Code:
+squareroot.py
+
+```python
+def sqrt(n, count):
+    a = float(n)
+    approx = 0.5 * a
+    better = 0.5 * (approx + n/approx)
+    while better != approx: 
+        approx = better
+        better = 0.5 * (approx + n/approx)
+        count = count + 1
+    print ("The number of iterations is: {}".format(count))
+    return approx
+    
+number = float(input("Please enter a number: "))
+answer = (sqrt(number, 1))
+
+print ("The estimated square root is: {}".format(round(answer,4)))
+```
+
+### Explanation: 
+
+A date in Python is not a data type of its own. Therefore, the program first imports the module ```datetime``` to work with dates as date objects. 
+
+Four variables are defined:
+
+- days: the seven days of the week 
+- date: the current date and time in the format ```YYYY-MM-DD 00:00:00.000000```
+- today: the ```weekday``` function returns an integer corresponding to day of the week (e.g.: 0 for Monday, 6 for Sunday)
+- todayAsString: converts integer to string 
+
+The program then runs an if loop. If the value of the 'today' integer is less than or equal to 4 (i.e. 0 to 4; Monday to Friday) then the program prints a line of code stating that the current day is a weekday. If the value of the integer is not less than or equal to 4 (i.e. 5 or 6; Saturday or Sunday) then the program prints a line of code stating that the current day is the weekend. The program ends after one iteration of the loop.
+
+### References:
+1. Pythontic (2020), *Weekday Function In Python* [Online]. Available at https://pythontic.com/datetime/date/weekday (Accessed 30th March 2021)
+2. Stack Overflow (n.d.) *Automatically update stored value of datetime.datetime.now()* [Online]. Available at https://stackoverflow.com/questions/12382190/automatically-update-stored-value-of-datetime-datetime-now (Accessed 30th March 2021)
+3. W3Schools (n.d.) *Python Datetime* [Online]. Available at https://www.w3schools.com/python/python_datetime.asp (Accessed 30th March 2021)
+
+reference: https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD3x8tynxPa
+reference: https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
+reference: https://www.w3schools.com/python/ref_func_round.asp
+reference: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 
 
