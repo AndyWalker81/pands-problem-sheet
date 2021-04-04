@@ -200,7 +200,20 @@ print ("The estimated square root is: {}".format(round(answer,4)))
 
 ### Explanation: 
 
+When run, the program asks the user to input a number which can be a float. This number is saved as the variable ```number```. The program calls the function ```sqrt``` which has two arguments: 
 
+1. ```n``` - the number that the user inputted
+2. ```count```- initially set at 1
+
+The ```sqrt``` function uses Newton's method:
+
+n = 0.5 * (n + a / n), where:
+n is a postive number you want to find square root of
+a is a guess that when squared will be close to equalling n 
+
+The program first creates variable ```approx``` by multiplying the inputted number by 0.5. Following the first guess, the result will be saved as variable ```better```which is now used as the new "guess" value. The more iterations are run, the closer the result will be to the value of n until the correct answer is reached. However, once the correct answer is reached, further iterations are uneccessary and will be a waste of processing resources. Therefore, the while loop ends when the values for ```approx``` and ```better``` are equal. 
+
+The function adds 1 to the ```count``` value each time the while loop runs. Once the correct answer is reached, the function prints the number of iterations run and the answer rounded to 4 decimal places.
 
 ### References:
 1. School for Champions (2012), *Newton's Square Root Approximation* [Online]. Available at https://www.school-for-champions.com/algebra/square_root_approx.htm#.YGMNcz_TVPb (Accessed 30th March 2021)
