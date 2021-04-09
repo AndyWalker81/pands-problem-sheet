@@ -312,7 +312,7 @@ plt.show()
     - Each line is given a colour (red, blue, and green respectively)
     - Each line is given a label 
 4. The program then adds a title, axis labels, displays the legend.
-5. Finally, the program shows the finished plot.
+5. Finally, the program outputs the plot to a .png file and shows the finished plot on screen.
 
 ### References:
 1. W3schools (n.d.) *NumPy Introduction* [Online]. Available at https://www.w3schools.com/python/numpy_intro.asp (Accessed 9th April 2021)
