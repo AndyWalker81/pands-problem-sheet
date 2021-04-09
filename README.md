@@ -298,6 +298,7 @@ plt.title("Weekly Task 8")
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 plt.legend()
+plt.savefig("plottask.png")
 plt.show()
 ```
 
