@@ -6,7 +6,7 @@
 
 #### Lecturer -- Andrew Beatty (andrew.beatty@gmit.ie)
 
-This file is the submission problem sheet for the module and contains the code, references, and comments for the 8 weekly tasks set over the duration of the course. 
+This file is the submission problem sheet for the module and contains the code, references, and comments for the weekly tasks set throughout the course. 
 
 ## Week 1
 
