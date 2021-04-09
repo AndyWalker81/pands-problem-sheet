@@ -259,27 +259,12 @@ It was not specified in task instructions whether to include capital E's; a deci
 
 
 ### References:
-1. School for Champions (2012), *Newton's Square Root Approximation* [Online]. Available at https://www.school-for-champions.com/algebra/square_root_approx.htm#.YGMNcz_TVPb (Accessed 30th March 2021)
-2. Sıddık Açıl (2018) *Newton Square Root Method in Python* [Online]. Available at https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d (Accessed 30th March 2021)
-3. W3Schools (n.d.) *Python round() Function* [Online]. Available at https://www.w3schools.com/python/ref_func_round.asp (Accessed 30th March 2021)
-4. Geeks for Geeks (2020) *Find root of a number using Newton’s method* [Online]. Available at https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/ (Accessed 30th March 2021)
-5. thinkcspy (n.d.) *8.6. Newton’s Method* [Online]. Available at https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html (Accessed 30th March 2021)
-6. StudentCSP (n.d.) *8.3. Counting with a While Loop* [Online]. Available at https://runestone.academy/runestone/books/published/StudentCSP/CSPWhileAndForLoops/whileCount.html (Accessed 30th March 2021)
-7. W3Schools (n.d.) *Python While Loops* [Online]. Available at https://www.w3schools.com/python/python_while_loops.asp (Accessed 30th March 2021)
-
-https://www.knowledgehut.com/blog/programming/sys-argv-python-examples
-https://www.codegrepper.com/code-examples/python/pass+a+file+as+argument+in+python+sys+argv
-https://realpython.com/working-with-files-in-python/
-https://www.educative.io/edpresso/how-to-open-files-in-python
-https://www.programiz.com/python-programming/methods/list/count
-
-
-
-
-
-
-
-
+1. KnowledgeHut (2021) *How to use sys.argv in Python* [Online]. Available at https://www.knowledgehut.com/blog/programming/sys-argv-python-examples (Accessed 9th April 2021)
+2. Grepper (n.d.) *“pass a file as argument in python sys argv” Code Answer* [Online]. Available at https://www.codegrepper.com/code-examples/python/pass+a+file+as+argument+in+python+sys+argv (Accessed 9th April 2021)
+3. Real Python (2021) *Working With Files in Python* [Online]. Available at https://realpython.com/working-with-files-in-python/ (Accessed 9th April 2021)
+4. Educative, inc. (2021) *How to open files in Python* [Online]. Available at https://www.educative.io/edpresso/how-to-open-files-in-python (Accessed 9th April 2021)
+5. Programiz (2021) *Python List count()* [Online]. Available at  https://www.programiz.com/python-programming/methods/list/count
+(Accessed 9th April 2021)
 
 
 
@@ -291,30 +276,24 @@ https://www.programiz.com/python-programming/methods/list/count
 ### Code:
 
 ```python
-# import modules 
 import numpy as np
 import matplotlib.pyplot as plt
 
-# set absolute variables
 x = np.array(range(0,4))
 y = np.array(range(0,4))
 
-# define first function and plot
 def f(x):
     return x
 plt.plot(y, f(x), "r", label = "f(x)")
 
-# define second function and plot
 def g(x):
     return x ** 2
 plt.plot(y, g(x), "b", label = "g(x)")
 
-# define third function and plot
 def h(x):
     return x ** 3
 plt.plot(y, h(x),  "g", label = "h(x)")
 
-# add title, axis labels, legend, and show the plot
 plt.title("Weekly Task 8")
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
