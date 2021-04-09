@@ -314,9 +314,10 @@ plt.show()
 5. Finally, the program shows the finished plot.
 
 ### References:
-1. https://www.w3schools.com/python/numpy_intro.asp 
-2. https://matplotlib.org/ 
-3. https://pythonprogramming.net/legends-titles-labels-matplotlib-tutorial/
-4. https://stackoverflow.com/questions/13544078/python-how-to-create-a-function-e-g-fx-ax2
-5. https://pythonspot.com/functions/   
-6. https://www.pitt.edu/~naraehan/python2/user_defined_functions.html
+1. W3schools (n.d.) *NumPy Introduction* [Online]. Available at https://www.w3schools.com/python/numpy_intro.asp (Accessed 9th April 2021)
+2. Matplotlib (2021) *Matplotlib: Visualization with Python* [Online]. Available at https://matplotlib.org/  (Accessed 9th April 2021)
+3. PythonProgramming.net (n.d.) *Legends, Titles, and Labels with Matplotlib* [Online]. Available at https://pythonprogramming.net/legends-titles-labels-matplotlib-tutorial/ (Accessed 9th April 2021)
+4. Stack Overflow (n.d.) *Python: How to create a function? e.g. f(x) = ax^2* [Online]. Available at https://stackoverflow.com/questions/13544078/python-how-to-create-a-function-e-g-fx-ax2 (Accessed 9th April 2021)
+5. Pythonspot (2021) *Functions in Python* [Online]. Available at https://pythonspot.com/functions/  (Accessed 9th April 2021)
+6. pitt.edu (n.d.) *User-Defined Functions* [Online]. Available at https://www.pitt.edu/~naraehan/python2/user_defined_functions.html (Accessed 9th April 2021)
+
