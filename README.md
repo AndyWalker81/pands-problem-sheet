@@ -6,7 +6,7 @@
 
 #### Lecturer -- Andrew Beatty (andrew.beatty@gmit.ie)
 
-This file is the submission problem sheet for the module and contains the code, references, and comments for the weekly tasks set throughout the course. 
+This file is the submission problem sheet for the module and contains the code, references, and comments for the weekly tasks set throughout the course. Additional comments on the code are contained within the individual .py files associated with this readme.
 
 ## Week 1
 
@@ -303,16 +303,20 @@ plt.show()
 ```
 
 ### Explanation: 
-1. The program first imports the modules numpy and pyplot from matplotlib. 
+The program first imports the modules numpy and pyplot from matplotlib. 
     - Numpy is a Python library used for working with arrays. 
     - Matplotlib is a library for creating visualizations in Python. 
     - matplotlib.pyplot is a collection of functions that make matplotlib work like MATLAB. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc.
-2. The program then defines each of the three functions required for the task in turn: f(x), g(x), and h(x). Each function returns the value stated in the task instruction.
-3. After each function, the program uses pyploy to plots the result in a line plot. The result is not shown at each of these stages.
+
+The program then defines each of the three functions required for the task in turn: f(x), g(x), and h(x). Each function returns the value stated in the task instruction.
+
+After each function, the program uses pyploy to plots the result in a line plot. The result is not shown at each of these stages.
     - Each line is given a colour (red, blue, and green respectively)
     - Each line is given a label 
-4. The program then adds a title, axis labels, displays the legend.
-5. Finally, the program outputs the plot to a .png file and shows the finished plot on screen.
+
+The program then adds a title, axis labels, displays the legend.
+
+Finally, the program outputs the plot to a .png file and displays the finished plot on screen.
 
 ### References:
 1. W3schools (n.d.) *NumPy Introduction* [Online]. Available at https://www.w3schools.com/python/numpy_intro.asp (Accessed 9th April 2021)
