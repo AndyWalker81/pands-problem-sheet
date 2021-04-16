@@ -2,14 +2,6 @@
 # to estimate square root of number
 # Author: Andy Walker
 
-# reference: https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD3x8tynxPa
-# reference: https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
-# reference: https://www.w3schools.com/python/ref_func_round.asp
-# reference: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
-# reference: https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html
-# reference: https://runestone.academy/runestone/books/published/StudentCSP/CSPWhileAndForLoops/whileCount.html
-# reference: https://www.w3schools.com/python/python_while_loops.asp
-
 # first define function sqrt
 # the number value is defined later in the code
 # the more iterations it is possible to be more accurate, although too many is less efficient

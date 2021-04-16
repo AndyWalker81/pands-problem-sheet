@@ -3,13 +3,6 @@
 # A program that displays a plot of the functions f(x)=x, g(x)=x^2 and h(x)=x^3 in the range [0, 4] on the one set of axes
 # Author: Andy Walker
 
-# https://stackoverflow.com/questions/13544078/python-how-to-create-a-function-e-g-fx-ax2
-# https://pythonspot.com/functions/   
-# https://www.pitt.edu/~naraehan/python2/user_defined_functions.html
-# https://pythonprogramming.net/legends-titles-labels-matplotlib-tutorial/
-# https://www.w3schools.com/python/numpy_intro.asp
-# https://matplotlib.org/
-
 # import modules 
 import numpy as np
 import matplotlib.pyplot as plt

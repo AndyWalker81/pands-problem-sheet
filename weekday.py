@@ -3,10 +3,6 @@
 # A program that outputs whether or not today is a weekday.
 # Author: Andy Walker
 
-# reference: https://pythontic.com/datetime/date/weekday accessed 23/2/21
-# reference: https://www.w3schools.com/python/python_datetime.asp accessed 30/3/21
-# reference: https://stackoverflow.com/questions/12382190/automatically-update-stored-value-of-datetime-datetime-now accessed 23/2/21
-
 # import Python's datetime module
 
 import datetime
