@@ -24,10 +24,3 @@ with open (filename, "rt") as f:
     E = data.count("E")
     print ("There are {} occurances of 'e' and there are {} occurances of 'E'".format(e, E))
     print ("Therefore, there is a total of {} occurances".format(e + E ) )
-
-# References: 
-# https://www.knowledgehut.com/blog/programming/sys-argv-python-examples
-# https://www.codegrepper.com/code-examples/python/pass+a+file+as+argument+in+python+sys+argv
-# https://realpython.com/working-with-files-in-python/
-# https://www.educative.io/edpresso/how-to-open-files-in-python
-# https://www.programiz.com/python-programming/methods/list/count
