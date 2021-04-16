@@ -28,4 +28,5 @@ todayAsString = days[today]
 if today <= 4:
     print ("Today is {} which is a weekday.".format(todayAsString))
 else:
-    print ("Yay! Today is {} which is the weekend!".format(todayAsString))
+    print ("Yay! Today is {} which is the weekend!".format(todayAsString)) 
+ 
