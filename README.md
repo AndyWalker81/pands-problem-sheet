@@ -328,3 +328,4 @@ Finally, the program outputs the plot to a .png file and displays the finished p
 5. Pythonspot (2021) *Functions in Python* [Online]. Available at https://pythonspot.com/functions/  (Accessed 9th April 2021)
 6. pitt.edu (n.d.) *User-Defined Functions* [Online]. Available at https://www.pitt.edu/~naraehan/python2/user_defined_functions.html (Accessed 9th April 2021)
 
+ 
