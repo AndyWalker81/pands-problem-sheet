@@ -33,7 +33,7 @@ def h(x):
     return x ** 3
 plt.plot(y, h(x),  "g", label = "h(x)")
 
-# add title, labels, legend, show the plot, and save the plot as .png file
+# add title, labels, legend, show the plot, and save the plot as .png file 
 plt.title("Weekly Task 8")
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
