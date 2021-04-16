@@ -13,7 +13,7 @@ userNumber = int(input("Please enter a positive integer: "))
 # Prints the inputted number 
 # This will not show until the rest of the code runs
 # The end key avoids a new line
-# Reference: https://stackoverflow.com/questions/12032214/print-new-output-on-same-line
+# Reference: https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/
 
 print (userNumber,  end = ' ')
 

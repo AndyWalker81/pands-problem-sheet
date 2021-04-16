@@ -7,6 +7,8 @@
 # reference: https://www.w3schools.com/python/ref_func_round.asp
 # reference: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 # reference: https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html
+# reference: https://runestone.academy/runestone/books/published/StudentCSP/CSPWhileAndForLoops/whileCount.html
+# reference: https://www.w3schools.com/python/python_while_loops.asp
 
 # first define function sqrt
 # the number value is defined later in the code
