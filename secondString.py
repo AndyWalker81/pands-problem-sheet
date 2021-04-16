@@ -6,4 +6,4 @@
 txt = input("Please enter a sentence: ")
 print (txt[::-2])
 
-# https://www.w3schools.com/python/python_howto_reverse_string.asp
+ 
